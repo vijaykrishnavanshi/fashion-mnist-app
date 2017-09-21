@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.box {
+  border: 1px solid black ;
+  margin-top: 5px;
+  margin-left: 3px;
+  margin-right:8px;
+  margin-bottom:3px;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  height: auto;
+  width: auto;
+}
+</style>
+</head>
+<body>
+<form action="/predict" method="POST" enctype="multipart/form-data"> 
+Upload your Image to predict its type.
+<div class= "box">
+<input type="file" name="fileupload">
+<br/>
+<br/>
+<div align="right">
+<input type="submit" value="Submit">
+</div>
+</div>
+</body>
+</html>
