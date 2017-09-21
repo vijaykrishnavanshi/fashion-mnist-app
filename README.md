@@ -1,1 +1,1 @@
-# FashionMNISTFlaskApp
+# Fashion Recognizer
